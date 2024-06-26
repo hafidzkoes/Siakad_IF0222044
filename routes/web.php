@@ -1,5 +1,7 @@
 <?php
 
+use Faker\Guesser\Name;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
